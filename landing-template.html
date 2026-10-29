@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free screening day | Bright Minds Centre</title>
+  <meta name="description" content="Free autism and speech screening for children aged 18 months to 8 years in Lekki, Lagos.">
+  <meta property="og:title" content="Free screening day | Bright Minds Centre">
+  <meta property="og:description" content="Free autism and speech screening for children aged 18 months to 8 years in Lekki, Lagos.">
+  <meta property="og:image" content="images/hero.jpg">
+  <link rel="icon" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<main>
+
+<!-- ===== CAMPAIGN LANDING PAGE =====
+     Copy this file for each advert or event (e.g. screening-day.html).
+     It has no menu so visitors focus on one action. -->
+<header class="site-header"><div class="container d-flex justify-content-between align-items-center py-3"><a class="brand" href="index.html"><svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="18" fill="#12343b"/><path d="M14 32c0-6 8-10 18 0s18 6 18 0-8-10-18 0-18 6-18 0z" fill="none" stroke="#e8a33d" stroke-width="4.5" stroke-linecap="round"/></svg><span class="brand-name">Bright Minds<small>Autism &amp; Neurodevelopmental Centre</small></span></a><a href="#register" class="btn btn-ink">Reserve a place</a></div></header>
+<section class="hero">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7">
+        <span class="kicker">Free event, Saturday 29 November, Lekki</span>
+        <h1>Free autism and speech screening day</h1>
+        <p class="lede">Worried your child isn't talking, playing or developing like other children? Meet our specialists for a free 20-minute screening and leave with clear advice on what to do next.</p>
+        <ul class="ticks mb-4" style="max-width:480px">
+          <li><i class="bi bi-check2"></i>For children aged 18 months to 8 years</li>
+          <li><i class="bi bi-check2"></i>One-to-one with a qualified therapist</li>
+          <li><i class="bi bi-check2"></i>40 places only, so booking is essential</li>
+        </ul>
+        <a href="#register" class="btn btn-gold">Reserve a free place</a>
+      </div>
+      <div class="col-lg-5"><figure class="hero-figure mb-0"><svg class="loop" viewBox="0 0 1400 600" aria-hidden="true"><path d="M60 300 C 260 20, 560 20, 700 300 S 1140 580, 1340 300 S 1000 20, 700 300 S 260 580, 60 300"/></svg><img src="images/landing.jpg" alt="" width="900" height="1125"></figure></div>
+    </div>
+  </div>
+</section>
+<section class="wrap bg-paper">
+  <div class="container">
+    <h2 class="mb-5" style="max-width:20ch">Signs that a screening could help</h2>
+    <div class="row g-5">
+      <div class="col-sm-6 col-lg-3"><div class="voice"><h3 class="h5">Few or no words by age two</h3></div></div>
+      <div class="col-sm-6 col-lg-3"><div class="voice"><h3 class="h5">Little eye contact or pointing</h3></div></div>
+      <div class="col-sm-6 col-lg-3"><div class="voice"><h3 class="h5">Repetitive movements or rigid routines</h3></div></div>
+      <div class="col-sm-6 col-lg-3"><div class="voice"><h3 class="h5">Strong reactions to sound or touch</h3></div></div>
+    </div>
+  </div>
+</section>
+<section class="wrap" id="register">
+  <div class="container" style="max-width:760px">
+    <div class="panel">
+      <h2 class="h3 mb-4">Reserve your free place</h2>
+      <form id="bookingForm">
+        <input type="hidden" name="service" value="Free screening day">
+        <div class="row g-3">
+          <div class="col-md-6"><label class="form-label" for="l-name">Your name</label><input id="l-name" name="name" class="form-control" required></div>
+          <div class="col-md-6"><label class="form-label" for="l-phone">Phone or WhatsApp</label><input id="l-phone" name="phone" type="tel" class="form-control" required></div>
+          <div class="col-md-6"><label class="form-label" for="l-email">Email (optional)</label><input id="l-email" name="email" type="email" class="form-control"></div>
+          <div class="col-md-6"><label class="form-label" for="l-age">Child's age</label><input id="l-age" name="age" class="form-control" required></div>
+          <div class="col-12"><label class="form-label" for="l-msg">Anything we should know?</label><textarea id="l-msg" name="message" rows="3" class="form-control"></textarea></div>
+          <div class="col-12"><button class="btn btn-gold w-100" type="submit">Reserve my place</button></div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+<footer class="site-footer py-4"><div class="container d-flex flex-wrap justify-content-between gap-2 small"><span>&copy; <span class="js-year"></span> Bright Minds Autism &amp; Neurodevelopmental Centre</span><a href="index.html">Visit our main website</a></div></footer>
+<a href="#" class="wa-float js-wa" aria-label="Chat with us on WhatsApp"><i class="bi bi-whatsapp"></i></a>
+
+</main>
+
+<script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
